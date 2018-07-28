@@ -1,6 +1,4 @@
 package com.mythoi.souwoba;
-//aide模板
-//aide中文网aidecn.cn
 //author：mythoi
 //QQ：515942586
 import android.content.DialogInterface;

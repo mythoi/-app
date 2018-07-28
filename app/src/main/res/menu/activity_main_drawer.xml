@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/home"
+            android:title="首页" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/theme"
+            android:title="主题" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/xuqiu"
+            android:title="发布需求" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/help"
+            android:title="提供帮助" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_menu_share"
+                android:title="分享" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/about"
+                android:title="关于" />
+        </menu>
+    </item>
+
+</menu>

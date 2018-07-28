@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+	<com.mythoi.souwoba.MyTextView
+		android:id="@+id/list_itemTextViewTitle"
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:text="Medium Text"
+		android:layout_margin="10dp"/>
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:layout_margin="10dp"
+		android:layout_marginTop="0dp">
+
+		<TextView
+			android:visibility="gone"
+			android:id="@+id/list_itemTextViewType"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Text"
+			android:layout_weight="1.0"/>
+
+		<TextView
+			android:id="@+id/list_itemTextViewTime"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Text"
+			android:layout_weight="1.0"/>
+
+		<TextView
+			android:visibility="gone"
+			android:id="@+id/list_itemTextViewSize"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Text"
+			android:layout_weight="1.0"/>
+
+		<TextView
+			android:id="@+id/list_itemTextViewUrl"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Text"
+			android:visibility="gone"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

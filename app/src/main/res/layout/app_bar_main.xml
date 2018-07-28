@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:fitsSystemWindows="true">
+
+	<android.support.design.widget.AppBarLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+
+		<RelativeLayout
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent">
+
+			<android.support.v7.widget.Toolbar
+				android:id="@+id/toolbar"
+				android:layout_width="match_parent"
+				android:layout_height="?attr/actionBarSize"
+				android:background="?attr/colorPrimary"
+				app:popupTheme="@style/AppTheme.PopupOverlay"/>
+			<FrameLayout
+				android:layout_alignParentRight="true"
+				android:layout_centerVertical="true"
+				android:layout_marginRight="10dp"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+				
+				<android.support.v7.widget.AppCompatImageView
+				android:onClick="animate"
+				android:id="@+id/app_bar_mainImageView"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				app:srcCompat="@drawable/search_bar"/>
+			<EditText
+				android:imeOptions="actionSearch"
+				android:singleLine="true"
+				android:hint="给的再多，不如懂我"
+				android:id="@+id/text"
+				android:layout_width="wrap_content"
+				android:layout_height="22dp"
+				android:layout_gravity="center"
+				android:background="@null"
+				android:textSize="12sp"
+				android:paddingStart="4dp"
+				android:textColor="#ffffff"
+				android:alpha="0" />
+			</FrameLayout>
+		</RelativeLayout>
+
+	</android.support.design.widget.AppBarLayout>
+
+	<include
+		layout="@layout/content_main"/>
+
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="bottom|end"
+		android:layout_margin="@dimen/fab_margin"
+		app:srcCompat="@mipmap/search"/>
+
+</android.support.design.widget.CoordinatorLayout>
+

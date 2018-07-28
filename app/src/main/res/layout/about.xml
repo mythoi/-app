@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<ImageView
+			android:layout_height="120dp"
+			android:layout_width="120dp"
+			android:src="@mipmap/ic_launcher"
+			android:layout_gravity="center"
+			android:layout_marginTop="30dp"/>
+
+		<TextView
+			android:text="搜我吧 Version-1.0.6"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_margin="10dp"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="该软件使用了jsoup框架，爬取百度云资源并收集分类，你要的，这里都有，可搜率高达80%。声明：未经开发者允许，请勿作为商业性交易，若转载，必须注明出处，资源均来自互联网，若有侵权，请联系开发者删除。若继续使用该软件，默认您已同意此声明。"
+			android:layout_gravity="center"
+			android:layout_marginTop="20dp"
+			android:layout_marginLeft="10dp"
+			android:layout_marginRight="10dp"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_margin="0dp"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="粉丝群1：217034110（已满）"
+			android:textColor="@color/colorAccent"
+			android:layout_marginTop="0dp"
+			android:layout_margin="10dp"
+			android:id="@+id/aboutactivityTextView1"
+			android:onClick="p1"/>
+
+		<TextView
+			android:textColor="@color/colorAccent"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="粉丝群2：366985431（已满）"
+			android:layout_margin="10dp"
+			android:layout_marginTop="0dp"
+			android:id="@+id/aboutactivityTextView2"
+			android:onClick="p2"/>
+
+		<TextView
+			android:textColor="@color/colorAccent"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="粉丝群3：587450032"
+			android:layout_margin="10dp"
+			android:layout_marginTop="0dp"
+			android:id="@+id/aboutactivityTextView3"
+			android:onClick="p3"/>
+
+		<TextView
+			android:textColor="@color/colorAccent"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="开发者：515942586"
+			android:layout_margin="10dp"
+			android:layout_marginTop="0dp"
+			android:id="@+id/aboutactivityTextView4"
+			android:onClick="p4"/>
+
+		<TextView
+			android:textColor="@color/colorAccent"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="邮箱oumythoi@gmail.com"
+			android:layout_margin="10dp"
+			android:layout_marginTop="0dp"
+			android:id="@+id/aboutactivityTextView5"
+			android:onClick="p5"/>
+
+		<TextView
+			android:textColor="@color/colorAccent"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="微信公众号：mythoi_occ"
+			android:layout_margin="10dp"
+			android:layout_marginTop="0dp"
+			android:id="@+id/aboutactivityTextView6"/>
+
+		<LinearLayout
+			android:layout_gravity="center"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginTop="10dp">
+
+			<TextView
+				android:textColor="@color/colorAccent"
+				android:onClick="p6"
+				android:id="@+id/about_activityTextView"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:text="开发者"
+				android:layout_gravity="center"/>
+
+			<TextView
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceSmall"
+				android:layout_width="wrap_content"
+				android:text="| mythoi出品"
+				android:layout_gravity="center"/>
+
+		</LinearLayout>
+
+		<TextView
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:text="Copyright © 2016- 2017 mythoi All Rights Reserved"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"/>
+
+	</LinearLayout>
+
+</ScrollView>
+

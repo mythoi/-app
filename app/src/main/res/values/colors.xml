@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="colorAccent">#AB47BC</color>
+	
+	<color name="colorPrimary1">#4CAF50</color>
+    <color name="colorPrimaryDark1">#388E3C</color>
+    <color name="colorAccent1">#66BB6A</color>
+	
+	
+	<color name="colorPrimary2">#FF1744</color>
+    <color name="colorPrimaryDark2">#FF1744</color>
+    <color name="colorAccent2">#FF1744</color>
+	
+		
+	<color name="colorPrimary3">#E91E63</color>
+    <color name="colorPrimaryDark3">#C2185B</color>
+    <color name="colorAccent3">#FF4081</color>
+	
+	<color name="colorPrimary4">#00BCD4</color>
+    <color name="colorPrimaryDark4">#0097A7</color>
+    <color name="colorAccent4">#0097A7</color>
+	
+	
+	<color name="colorPrimary5">#03A9F4</color>
+    <color name="colorPrimaryDark5">#0288D1</color>
+    <color name="colorAccent5">#40C4FF</color>
+	
+	<color name="colorPrimary6">#FF5722</color>
+    <color name="colorPrimaryDark6">#E64A19</color>
+    <color name="colorAccent6">#FF6E40</color>
+	
+	<color name="colorPrimary7">#9E9E9E</color>
+    <color name="colorPrimaryDark7">#616161</color>
+    <color name="colorAccent7">#BDBDBD</color>
+	
+	<color name="colorPrimary8">#F44336</color>
+    <color name="colorPrimaryDark8">#D32F2F</color>
+    <color name="colorAccent8">#EF5350</color>
+	
+	
+	<color name="colorPrimary9">#F44336</color>
+    <color name="colorPrimaryDark9">#D32F2F</color>
+    <color name="colorAccent9">#EF5350</color>
+	
+	<color name="colorPrimary10">#F44336</color>
+    <color name="colorPrimaryDark10">#D32F2F</color>
+    <color name="colorAccent10">#EF5350</color>
+	
+	
+	
+	
+	</resources>
